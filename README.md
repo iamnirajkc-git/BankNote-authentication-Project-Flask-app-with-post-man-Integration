@@ -21,23 +21,14 @@ The API will return a JSON response indicating whether or not the bank note is a
 
 ##### Sample Request #######
 
-POST http://localhost:5000/predict
-Content-Type: application/json
+POST http://localhost:5000/predict for "TestFile.csv"
 
-{
-    "variance": -2.432,
-    "skewness": 4.321,
-    "curtosis": 2.543,
-    "entropy": -1.234
-}
+
 
 
 ###### Sample Response #####
 
-
-{
-    "result": "authentic"
-}
+The predicted value for the test file is[0, 0, 0, 0, 1, 1, 1, 1, 1]
 
 ### License
 This project is licensed under theApache License - see the LICENSE.md file for details.

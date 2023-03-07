@@ -5,7 +5,7 @@ This is a project that uses a Random Forest model to authenticate bank notes. It
 To get started with this project, you will need to do the following:
 
 Clone the repository to your local machine.
-Install the required packages.
+install the required packages listed in requirements.txt.
 Run the Flask app by running python flaskApp.py in your terminal.
 Open Postman and test the API by sending a POST request to http://localhost:5000/predict with a JSON payload or csv file containing the bank note features to authenticate.
 
